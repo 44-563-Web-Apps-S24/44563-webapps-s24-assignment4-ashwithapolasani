@@ -1,0 +1,58 @@
+.speech{
+    font-family: 'Times New Roman';
+    font-size: small;
+    color: black;
+}
+
+.direction{
+    font-family: sans-serif;
+    font-size: 80%;
+    color:black;
+    background-color:aqua;
+}
+
+.direction:hover{
+    color: rgb(193, 227, 69);
+    background-color: aliceblue;
+}
+
+.name{
+    font-family: fantasy;
+    font-size: small;
+    text-shadow: 2.2px 1.8px 4.5px rgba(20, 241, 86, 0.473);
+}
+
+.Stockmann{
+    color: rgb(87, 234, 126);
+    font-family: 'Courier New';
+    font-size: 80%;
+}
+
+.Billing{
+    color: rgb(80, 80, 216);
+    font-family: cursive;
+}
+
+.Hovstad{
+    color: rgb(242, 88, 155);
+    font-family: monospace;
+    font-size: medium;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 3;
+    width: 80%;
+    margin: 20px 40px 65px;
+    border: 1.25px solid #16e816;
+}
+
+th, td {
+    text-align: left;
+    padding: 20px;
+    border: 1.25px solid #f30c0c;
+  }
+
+tr:nth-child(even) {
+    background-color: #fd730a;
+  }
+
